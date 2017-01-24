@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayBaseStack", "ArrayBase
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListBaseStack", "ListBaseStack\ListBaseStack.vcxproj", "{AA0A7CD2-CDD5-4CFF-85A0-C5CD7D4D38F0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Calculator.vcxproj", "{3B554C2F-29CC-42F8-B138-D49575506BD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,16 @@ Global
 		{AA0A7CD2-CDD5-4CFF-85A0-C5CD7D4D38F0}.Release|x64.Build.0 = Release|x64
 		{AA0A7CD2-CDD5-4CFF-85A0-C5CD7D4D38F0}.Release|x86.ActiveCfg = Release|Win32
 		{AA0A7CD2-CDD5-4CFF-85A0-C5CD7D4D38F0}.Release|x86.Build.0 = Release|Win32
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Debug|x64.ActiveCfg = Debug|x64
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Debug|x64.Build.0 = Debug|x64
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Debug|x86.Build.0 = Debug|Win32
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Release|x64.ActiveCfg = Release|x64
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Release|x64.Build.0 = Release|x64
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Release|x86.ActiveCfg = Release|Win32
+		{3B554C2F-29CC-42F8-B138-D49575506BD0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
