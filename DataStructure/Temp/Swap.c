@@ -11,6 +11,10 @@ void main(void) {
 	int b = 2;
 
 	Swap(&a, &b);
+	
+	
+
+	fprintf(stdout, "%s","adb");
 
 	printf("%d %d\n", a, b);
 
