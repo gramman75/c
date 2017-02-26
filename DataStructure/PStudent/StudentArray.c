@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void AverageSubject(int **arr,int students, int subjects) {
+	int avg = 0, sum=0;
+	for (int i = 0; i < students; i++) {
+		printf("학생 %d 평균:", i);
+		for (int j = 0; j < subjects; j++) {
+			sum = sum + arr[i][j];
+		}
+		printf("%3d\n", sum / subjects);
+	}
+}
+
 void main(void) {
 	int students, subjects, point;
 
@@ -36,13 +47,9 @@ void main(void) {
 			printf("과목 %d 점수 : %d\n",n, arr[m][n]);
 		}
 	}
-
-
+	AverageSubject(arr, students, subjects);
 	for (int i = 0; i < students; i++) {
 		free(arr[i]);
 	}
-
 	free(arr);
-
-
 }

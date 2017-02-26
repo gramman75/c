@@ -44,6 +44,15 @@ void MakeRightSubNode(BTreeNode* main, BTreeNode* sub) {
 	main->right = sub;
 }
 
+void PreorderTravers(BTreeNode *node, VisitFuncPtr action){
+	if (node == NULL)
+		return;
+
+	action(node);
+	PreorderTravers(node->left, action);
+	PreorderTravers(node->right, action);
+}
+
 void InorderTravers(BTreeNode *node, VisitFuncPtr action) {
 	if (node == NULL)
 		return;
@@ -52,4 +61,13 @@ void InorderTravers(BTreeNode *node, VisitFuncPtr action) {
 	action(node);
 	//printf("%d\n", node->data);
 	InorderTravers(node->right, action);
+}
+
+void PostorderTravers(BTreeNode *node, VisitFuncPtr action) {
+	if (node == NULL)
+		return;
+
+	PostorderTravers(node->left, action);
+	PostorderTravers(node->right, action);
+	action(node);
 }

@@ -27,5 +27,7 @@ void main(void) {
 
 	//printf("%d\n",GetData(GetRightSubNode(GetLeftSubNode(bt1))));
 
+	PreoderTravers(bt1, Action);
 	InorderTravers(bt1,Action);
+	PostorderTravers(bt1, Action);
 }
