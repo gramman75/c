@@ -18,5 +18,8 @@
     <ClCompile Include="MergeSort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="MergeSortSelf.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
