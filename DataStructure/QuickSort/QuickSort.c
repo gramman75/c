@@ -9,20 +9,25 @@ void Swap(int arr[], int idx1, int idx2) {
 
 int Partition(int arr[], int left, int right) {
 	int low = left+1, high = right;
-	int pivot = left;
+	int pivot;
+	if (arr[left] > arr[right])
+		pivot = arr[left];
+	else
+		pivot = arr[right];
 
+	printf("Pivot : %d\n", pivot);
 	while (low <= high) {
-		while (arr[pivot] > arr[low])
+		while (low <= right && pivot >= arr[low])
 			low++;
 
-		while (arr[pivot] < arr[high])
+		while (high >= (left+1) && pivot <= arr[high])
 			high--;
 
 		if (low <= high)
 			Swap(arr, low, high);
 	}
 
-	Swap(arr, pivot, high);
+	Swap(arr, left , high);
 
 	return high;
 
@@ -39,14 +44,13 @@ void QuickSort(int arr[], int left, int right) {
 }
 
 void main(void) {
-	int arr[9] = { 5,1,3,7,9,2,4,6,8 };
-
+	//int arr[9] = { 5,1,3,7,9,2,4,6,8 };
+	//int arr[9] = { 3,3,3,3,3,3,3,3,3 };
+	int arr[9] = { 1,2,3,4,5,6,7,8,9 };
 	QuickSort(arr, 0, 8);
 
 	for (int i = 0; i < 9; i++) {
 		printf("%d", arr[i]);
 	}
-
-
 }
 
