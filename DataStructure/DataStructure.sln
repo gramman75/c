@@ -65,6 +65,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuickSort", "QuickSort\Quic
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadixSort", "RadixSort\RadixSort.vcxproj", "{B18A7142-85A1-4E2C-82A8-FC86EDDA7C51}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38653623-3898-46DA-97A7-FD0250F9ADEB}"
+	ProjectSection(SolutionItems) = preProject
+		Test.md = Test.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.vcxproj", "{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -385,6 +392,16 @@ Global
 		{B18A7142-85A1-4E2C-82A8-FC86EDDA7C51}.Release|x64.Build.0 = Release|x64
 		{B18A7142-85A1-4E2C-82A8-FC86EDDA7C51}.Release|x86.ActiveCfg = Release|Win32
 		{B18A7142-85A1-4E2C-82A8-FC86EDDA7C51}.Release|x86.Build.0 = Release|Win32
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Debug|x64.ActiveCfg = Debug|x64
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Debug|x64.Build.0 = Debug|x64
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Debug|x86.ActiveCfg = Debug|Win32
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Debug|x86.Build.0 = Debug|Win32
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Release|x64.ActiveCfg = Release|x64
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Release|x64.Build.0 = Release|x64
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Release|x86.ActiveCfg = Release|Win32
+		{A771AD36-8C1B-4A5D-975F-3569ACE88FD2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
